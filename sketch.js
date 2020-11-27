@@ -30,7 +30,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(800, 200);
+  createCanvas(600, 200);
   
   trex = createSprite(50,180,20,50);
   trex.addAnimation("running", trex_running);
@@ -102,7 +102,7 @@ function draw() {
       reset();
     }
   }
-  text("Score: "+ score, 700,50);
+  text("Score: "+ score, 500,50);
   
   
   
